@@ -1,0 +1,89 @@
+{
+  "$schema": "https://registry.scalar.com/@scalar/schemas/config",
+  "scalar": "2.0.0",
+  "info": {
+    "title": "HostApi",
+    "description": "Auto-generated documentation"
+  },
+  "assetsDir": "assets",
+  "siteConfig": {
+    "theme": "default",
+    "subpath": "/docs"
+  },
+  "navigation": {
+    "routes": {
+      "/": {
+        "type": "group",
+        "title": "Documentation",
+        "children": {
+          "": {
+            "type": "page",
+            "title": "Overview",
+            "filepath": "index.md"
+          },
+          "/methods": {
+            "type": "group",
+            "title": "Methods",
+            "children": {
+              "/api": {
+                "type": "page",
+                "title": "api",
+                "filepath": "methods/api.md"
+              },
+              "/api.plugins": {
+                "type": "page",
+                "title": "api.plugins",
+                "filepath": "methods/api.plugins.md"
+              },
+              "/api.plugins.sdkPlugin": {
+                "type": "page",
+                "title": "api.plugins.sdkPlugin",
+                "filepath": "methods/api.plugins.sdkPlugin.md"
+              },
+              "/api.plugins.sdkPlugin.text": {
+                "type": "page",
+                "title": "api.plugins.sdkPlugin.text",
+                "filepath": "methods/api.plugins.sdkPlugin.text.md"
+              },
+              "/api.plugins.sdkPlugin.text.analyzeTitle": {
+                "type": "page",
+                "title": "api.plugins.sdkPlugin.text.analyzeTitle",
+                "filepath": "methods/api.plugins.sdkPlugin.text.analyzeTitle.md"
+              },
+              "/api.plugins.sdkPlugin.text.formatName": {
+                "type": "page",
+                "title": "api.plugins.sdkPlugin.text.formatName",
+                "filepath": "methods/api.plugins.sdkPlugin.text.formatName.md"
+              },
+              "/api.plugins.sdkPlugin.text.formatName_string": {
+                "type": "page",
+                "title": "api.plugins.sdkPlugin.text.formatName_string",
+                "filepath": "methods/api.plugins.sdkPlugin.text.formatName_string.md"
+              },
+              "/text": {
+                "type": "page",
+                "title": "text",
+                "filepath": "methods/text.md"
+              },
+              "/text.analyzeTitle": {
+                "type": "page",
+                "title": "text.analyzeTitle",
+                "filepath": "methods/text.analyzeTitle.md"
+              },
+              "/text.formatName": {
+                "type": "page",
+                "title": "text.formatName",
+                "filepath": "methods/text.formatName.md"
+              },
+              "/text.formatName_string": {
+                "type": "page",
+                "title": "text.formatName_string",
+                "filepath": "methods/text.formatName_string.md"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

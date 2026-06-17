@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "rootDir": "..",
+    "outDir": "./dist",
+    "declaration": true,
+    "sourceMap": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "ignoreDeprecations": "6.0",
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "types": ["bun", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@nogg-aholic/nrpc": ["../nRPC/src/index.ts"],
+      "@nogg-aholic/nrpc/*": ["../nRPC/src/*.ts"],
+      "@nogg-aholic/nrpc-cli": ["../nrpc-cli/src/index.ts"],
+      "@nogg-aholic/nrpc-cli/*": ["../nrpc-cli/src/*.ts"]
+    }
+  },
+  "include": [
+    "src/**/*.ts",
+    "../nRPC/src/**/*.ts"
+, "../nrpc-example-sdk-plugin/src/**/*.ts",
+    "scripts/generate.ts"  ]
+}
