@@ -24,8 +24,6 @@ const server = createBunServer({
   port: Number.parseInt(process.env.PORT ?? '4010', 10),
 });
 
-console.log(`nrpc-example listening on http://127.0.0.1:${server.port}`);
-console.log(`RPC endpoint: http://127.0.0.1:${server.port}/rpc`);
 console.log(`Synthetic JSON route: http://127.0.0.1:${server.port}/api/text/formatName`);
 console.log(`Plugin synthetic JSON route: http://127.0.0.1:${server.port}/api/plugins/sdkPlugin/text/formatName`);
 console.log(`Synthetic binary route: http://127.0.0.1:${server.port}/api/text/formatName.nrpc`);
@@ -33,4 +31,3 @@ console.log(`Plugin synthetic binary route: http://127.0.0.1:${server.port}/api/
 console.log(`Docs index: http://127.0.0.1:${server.port}/docs`);
 console.log(`Docs JSON: http://127.0.0.1:${server.port}/docs/openapi.json`);
 console.log(`Method docs: http://127.0.0.1:${server.port}/api/text/formatName/_docs`);
-console.log(`MCP endpoint: http://127.0.0.1:${server.port}/mcp`);

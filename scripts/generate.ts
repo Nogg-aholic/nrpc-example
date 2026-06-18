@@ -67,6 +67,9 @@ const openApiSurface = generateOpenApiSurface({
 
 await Bun.write(openApiSurfaceMcpOutFile, requireOpenApiSurfaceOutput(openApiSurface.mcpToolsText, "mcp"));
 
+/*
+TEMP , WILL BE CHANGED!!
+ 
 await generateVercelArtifacts({
   entryFile,
   outDir: apiDir,
@@ -77,6 +80,8 @@ await generateVercelArtifacts({
   docsFile: docsOutFile,
   openApiSurface: { mcpToolsText: openApiSurface.mcpToolsText },
 });
+
+*/
 
 writeMdDocsToDisk({
   entryFile,
